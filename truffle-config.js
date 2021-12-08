@@ -20,6 +20,11 @@ module.exports = {
       network_id: '3',
       websockets: true
     },
+    polygon: {
+      url:`wss://rpc-mainnet.maticvigil.com/ws`,
+      network_id: '137',
+      websockets: true
+    },
   },
   compilers: {
     solc: {
